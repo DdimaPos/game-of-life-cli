@@ -1,1 +1,0 @@
-/home/starplatinum/Documents/programming/Python/finnaly_working_package/gol-cli.py
