@@ -10,7 +10,7 @@ Conway's Game of Life is a cellular automaton that is played on a 2D square grid
 The initial configuration of cells can be created by a human, but all generations thereafter are completely determined by the above rules. The goal of the game is to find patterns that evolve in interesting ways – something that people have now been doing for over 50 years.
 
 Proposed implementation uses Python3 to provide a simulation of Conway's Game of Life in Linux terminal
-[gif with normal parameters](assets/normal.gif)
+![gif with normal parameters](assets/normal.gif)
 
 ## Installation
 Till this moment only an AUR package is avalaible. In future will be provided packages for more distibutions
@@ -55,23 +55,23 @@ Run CLI script with this command
 ```bash
 game-of-life-cli
 ```
-[gif with normal parameters](assets/normal.gif))
+![gif with normal parameters](assets/normal.gif))
 
 ### Specifying the *time between generation update* in seconds (default 0.07)
 `game-of-life-cli -t 0.2` or `game-of-life-cli --time 0.2`
-[gif with time parameters](assets/time.gif))
+![gif with time parameters](assets/time.gif))
 
 ### Specifying the *color of cells* (default white)
 `game-of-life-cli -c cyan` or `game-of-life-cli --color cyan`
-[gif with color parameters](assets/color.gif)
+![gif with color parameters](assets/color.gif)
 
 ### Specifying the *probability of cell to be alive* at the start(default 0.5)
 `game-of-life-cli -p 0.3` or `game-of-life-cli --probability 0.3`
-[gif with probability parameters](assets/probability.gif)
+![gif with probability parameters](assets/probability.gif)
 я
 ---
 Sure you can combine them
-[GIF with -p 0.3  -t 0.04 -c green](assets/combined.git)
+![GIF with -p 0.3  -t 0.04 -c green](assets/combined.git)
 ---
 In addition there are added some features to let the user enjoy the evolution without involving in process:
 1. Restarting the simulation when it reaches it's *stability* - After a certain amount of time 2 generations start to repeat. When this happens simulation restarts
