@@ -70,12 +70,12 @@ game-of-life-cli
 `game-of-life-cli -p 0.3` or `game-of-life-cli --probability 0.3`
 ![gif with probability parameters](assets/probability.gif)
 
----
-You can combine them
+
+You can combine the parameters to get something pleasing to your eyes
 ![GIF with -p 0.3  -t 0.04 -c green](assets/combined.gif)
----
+## Notes
 In addition there are added some features to let the user enjoy the evolution without involving in process:
 1. Restarting the simulation when it reaches it's *stability* - After a certain amount of time 2 generations start to repeat. When this happens simulation restarts
 2. Wrapping from boundaries - to increse the lifetime of simuation the cells at the boundaries treat as their neighbors cells from opposite boundaries  
 
-# Notes
+
