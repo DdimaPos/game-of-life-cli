@@ -48,6 +48,9 @@ sudo apt-get install python3 python3-numpy  # Debian/Ubuntu
 sudo dnf install python3 python3-numpy     # Fedora
 sudo pacman -S python python-numpy         # Arch Linux
 ```
+
+Delete the directory with the cloned repository
+
 ---
 ## Usage
 
@@ -73,6 +76,7 @@ game-of-life-cli
 
 You can combine the parameters to get something pleasing to your eyes
 ![GIF with -p 0.3  -t 0.04 -c green](assets/combined.gif)
+
 ## Notes
 In addition there are added some features to let the user enjoy the evolution without involving in process:
 1. Restarting the simulation when it reaches it's *stability* - After a certain amount of time 2 generations start to repeat. When this happens simulation restarts
