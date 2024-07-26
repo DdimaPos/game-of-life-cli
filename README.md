@@ -71,7 +71,7 @@ game-of-life-cli
 я
 ---
 Sure you can combine them
-![GIF with -p 0.3  -t 0.04 -c green](assets/combined.git)
+![GIF with -p 0.3  -t 0.04 -c green](assets/combined.gif)
 ---
 In addition there are added some features to let the user enjoy the evolution without involving in process:
 1. Restarting the simulation when it reaches it's *stability* - After a certain amount of time 2 generations start to repeat. When this happens simulation restarts
