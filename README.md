@@ -10,7 +10,7 @@ Conway's Game of Life is a cellular automaton that is played on a 2D square grid
 The initial configuration of cells can be created by a human, but all generations thereafter are completely determined by the above rules. The goal of the game is to find patterns that evolve in interesting ways – something that people have now been doing for over 50 years.
 
 Proposed implementation uses Python3 to provide a simulation of Conway's Game of Life in Linux terminal
-![gif with normal parameters](assets/normal.gif)
+![gif with normal parameters](assets/divided.gif)
 
 ## Installation
 Till this moment only an AUR package is avalaible. In future will be provided packages for more distibutions
@@ -59,18 +59,20 @@ Run CLI script with this command
 game-of-life-cli
 ```
 ![gif with normal parameters](assets/normal.gif)
+### Specifying if *the cells are squares or rectangles* (default true which mean squares)
+Eg: `game-of-life-cli -d true` or `game-of-life-cli --divided false`
+![gif with divided and not divided](assets/divided.gif)
 
 ### Specifying the *time between generation update* in seconds (default 0.07)
-`game-of-life-cli -t 0.2` or `game-of-life-cli --time 0.2`
-![gif with time parameters](assets/time.gif)
+Eg: `game-of-life-cli -t 0.2` or `game-of-life-cli --time 0.2`
 
 ### Specifying the *color of cells* (default white)
-`game-of-life-cli -c cyan` or `game-of-life-cli --color cyan`
+Eg: `game-of-life-cli -c cyan` or `game-of-life-cli --color cyan`
 ![gif with color parameters](assets/color.gif)
 
 ### Specifying the *probability of cell to be alive* at the start(default 0.5)
 
-`game-of-life-cli -p 0.3` or `game-of-life-cli --probability 0.3`
+Eg: `game-of-life-cli -p 0.3` or `game-of-life-cli --probability 0.3`
 ![gif with probability parameters](assets/probability.gif)
 
 
